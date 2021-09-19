@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.cart_detail {
+.card_detail {
   width: 400px;
   height:  480px;
   background: #FFFFFF;
@@ -13,19 +13,19 @@
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
 }
-.cart_imagine {
+.card_imagine {
   display: flex;
   text-align: center;
   justify-content: center;
 }
-.cart_detail_info {
+.card_detail_info {
   justify-content: space-between;
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.cart_detail_info_raiting {
+.card_detail_info_raiting {
   width: 55px;
   height: 25px;
   margin-left: 25px;
@@ -44,7 +44,7 @@
   font-size: 18px;
 
 }
-.cart_product_name {
+.card_product_name {
   color: #2C2C2C;
   margin-top: 16px;
   margin-bottom: 3px;
@@ -52,13 +52,13 @@
   font-weight: 400;
 }
 
-.cart_product_name--h4 {
+.card_product_name h4 {
   font-size: 16px;
   color: #2C2C2C;
   font-weight: 400;
 }
 
-.cart_product_name--p {
+.card_product_name p {
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 22px;
@@ -91,7 +91,7 @@
   font-weight: 600;
 }
 
-.button_addtocart {
+.button_addtocard {
   display: flex;
   align-items: center;
   width: 100%;
@@ -102,12 +102,12 @@
   border-radius: 0px 0px 8px 0px;
 }
 
-.button_addtocart_image {
+.button_addtocard_image {
   color: #FFFFFF;
   margin-right: 10px;
 }
 
-.button_addtocart_text {
+.button_addtocard_text {
   text-transform: uppercase;
   font-weight: 600;
 }
