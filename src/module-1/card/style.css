@@ -5,7 +5,6 @@
 
 .card_detail {
   width: 400px;
-  height:  480px;
   background: #FFFFFF;
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
@@ -28,7 +27,6 @@
 .card_detail_info_raiting {
   width: 55px;
   height: 25px;
-  margin-left: 25px;
   background: #6F64F8;
   display: flex;
   justify-content: center;
@@ -38,6 +36,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.wrapper_img_price_raiting {
+  margin: 20px 20px 20px 20px;
+
 }
 .price {
   font-family: 'Montserrat', sans-serif;
@@ -62,11 +64,13 @@
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 22px;
+  margin-left: 40px;
   color: #2C2C2C;
 }
 
 .product_buttons {
   height: 45px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
 }
