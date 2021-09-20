@@ -3,7 +3,7 @@
   margin: 0;
 }
 .card_wrapper {
-  width: 900px;
+  width: 1256px;
   font-family: 'Montserrat', sans-serif;  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -12,7 +12,6 @@
 }
 .card_detail {
   width: 400px;
-  height:  480px;
   background:rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
@@ -20,6 +19,11 @@
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
 }
+.wrapper_img_price_raiting {
+  margin: 20px 20px 20px 20px;
+
+}
+
 .card_imagine {
   display: flex;
   text-align: center;
@@ -35,7 +39,7 @@
 .card_detail_info_raiting {
   width: 55px;
   height: 25px;
-  margin-left: 25px;
+  
   background: #6F64F8;
   display: flex;
   justify-content: center;
