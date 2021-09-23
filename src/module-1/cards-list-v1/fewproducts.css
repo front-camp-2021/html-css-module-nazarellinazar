@@ -8,11 +8,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 28px;
-  grid-row-gap: 28px;   
+  grid-row-gap: 28px;
+  margin-left: 30px;   
 }
+
 .card_detail {
   width: 400px;
-  background:rgba(0, 0, 0, 0.135216);
+  background:white;
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   display: flex;
@@ -39,7 +41,6 @@
 .card_detail_info_raiting {
   width: 55px;
   height: 25px;
-  
   background: #6F64F8;
   display: flex;
   justify-content: center;
@@ -111,6 +112,7 @@
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 0px 0px 8px 0px;
+  border: none;
 }
 
 .button_addtocard_image {

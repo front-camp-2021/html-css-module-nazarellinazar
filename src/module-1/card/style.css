@@ -104,6 +104,7 @@
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 0px 0px 8px 0px;
+  border: none;
 }
 
 .button_addtocard_image {
