@@ -325,3 +325,40 @@ align-items: center;
     text-decoration: none;
     font-size: 20px;
 }
+
+
+
+@media (max-width: 1200px) {
+  .card {
+    width: 50%;
+  }
+  aside {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .all_blocks {
+    padding: 15px;
+  }
+  header {
+    padding-left: 15px;
+  }
+  .bread_crumbs {
+    margin: 15px 5px;
+  }
+  .card {
+    width: 50%;
+  }
+  .left_side_site {
+    display: none;
+  }
+  .page_buttons_group {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
